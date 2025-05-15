@@ -62,7 +62,7 @@ def chat_with_pdf(pdf_path, question):
     return answer
 
 
-pdf_path = r"C:\Users\tharu\Downloads\Untitled Folder\Untitled Folder 1\resume.pdf" #path
+pdf_path = r"" #path
 
 question = "What are the main conclusions of this document?"
 
@@ -71,7 +71,7 @@ print("\n Answer:", answer)
 
 # from openai import OpenAI
 
-# client = OpenAI(api_key="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")  # replace with your key
+# client = OpenAI(api_key="X")  # replace with your key
 
 # response = client.chat.completions.create(
 #     model="gpt-3.5-turbo",
